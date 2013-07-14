@@ -1,0 +1,70 @@
+body {
+    font-family: 'Comic Sans MS';
+}
+
+#headline{
+    position:fixed;
+    width:100%;
+    z-index:1;
+    top:0;
+}
+
+#header{
+    border-radius:25px;
+    position:relative;
+    height:70px;
+    line-height:70px;
+    text-align:center;
+    float:left;
+    width:70%;
+    background-color:#d8fbfb;
+}
+
+#logo {
+    position:relative;
+    border-radius:25px;
+    float:left;
+    width:30%;
+    background-color:#f58585;
+}
+
+#main {
+    margin-top: 70px;
+}
+
+#navigator {
+    position:absolute;
+    width:200px;
+    height:1000px;
+    background-color:#f58585;
+}
+
+#content {
+    margin-left:200px;
+    width:84.5%;
+    height:1000px;
+    background-color:#d8fbfb;
+}
+
+#footer {
+    clear: both;
+    text-align:center;
+    background-color:#ddd9d9;
+}
+
+p.center {
+    text-align:center;
+}
+
+img.center {
+    vertical-align: middle;
+    z-index:1;
+}
+
+input[type=text] {
+    width: 200px;
+}
+
+input {
+    font-family: 'Comic Sans MS';
+}
